@@ -1,0 +1,101 @@
+.footer {
+    background-color: white;
+    margin-top: 100px;
+}
+
+
+.footer-info {
+    display: flex;
+    align-items: center;
+}
+
+
+.footer-nav {
+    color: black;
+    font-size: 13px;
+    font-family: RobotoM, sans-serif;
+}
+
+
+.logo {
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-right: 250px;
+}
+
+
+.footer-logo {
+    margin-bottom: 20px;
+    width: 300px;
+}
+
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+}
+
+
+.nav:first-child {
+    margin: 0;
+}
+
+
+.phone {
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+}
+
+
+
+.number-for-call {
+    font-size: 24px;
+    color: black;
+    font-family: RobotoM, sans-serif;
+    margin: 0;
+    margin-bottom: 8px;
+}
+
+
+.phone-number {
+    color: black;
+    font-family: RobotoM, sans-serif;
+    font-size: 16px;
+    margin-left: 8px;
+}
+
+
+
+.nav-primary {
+    color: black;
+    font-size: 24px;
+    font-family: RobotoM, sans-serif;
+    margin: 0;
+    margin-top: -10px;
+    margin-bottom: 15px;
+}
+
+
+.internet {
+    display: flex;
+    align-items: center;
+}
+
+
+.VK {
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+
+.telegram {
+    cursor: pointer;
+}
+
+
+
+
+
