@@ -1,0 +1,51 @@
+.order-button {
+    display: flex;
+    justify-content: center;
+    background-color: orangered;
+    width: 300px;
+    border: none;
+    border-radius: 10px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 32px;
+    padding-right: 32px;
+
+    color: white;
+    font-size: 16px;
+    font-family: RobotoM, sans-serif;
+}
+
+.order-button:hover {
+    background-color: rgb(173, 46, 0);
+    cursor: pointer;
+}
+
+.order-button:active {
+    background-color: orangered;
+    cursor: default;
+}
+
+
+/*Burger*/
+.burger-button {
+    background-color: whitesmoke;
+    color: black;
+    width: 276px;
+    border: none;
+    border-radius: 12px;
+    padding-left: 92px;
+    padding-right: 92px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-top: 5px;
+}
+
+.burger-button:hover {
+    cursor: pointer;
+    background-color: gray;
+}
+
+.burger-button:active {
+    cursor: default;
+    background-color: whitesmoke;
+}
