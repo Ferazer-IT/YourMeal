@@ -1,0 +1,255 @@
+.main {
+    margin-top: 80px;
+}
+
+
+.foods {
+    display: flex;
+    justify-content: center;
+}
+
+
+.food:hover {
+    background-color: rgb(255, 195, 84);
+    cursor: pointer;
+}
+
+
+.food-text {
+    margin-left: 10px;
+}
+
+.food {
+    display: flex;
+    color: black;
+    font-size: 16px;
+    font-family: RobotoM, sans-serif;
+    background-color: white;
+    border-radius: 50px;
+    padding-left: 14px;
+    padding-right: 14px;
+    margin-left: 30px;
+}
+
+
+.food-primary {
+    display: flex;
+    color: black;
+    font-size: 16px;
+    font-family: RobotoM, sans-serif;
+    background-color: orange;
+    border-radius: 50px;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+/*Order*/
+.order-foods {
+    display: flex;
+    margin-left: 30px;
+}
+
+
+.order {
+    background-color: white;
+    border-radius: 18px;
+    width: 320px;
+    height: 580px;
+    margin-top: 125px;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-bottom: 60px;
+}
+
+
+.korzina {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.order-primary {
+    color: black;
+    font-size: 24px;
+    font-family: RobotoB, sans-serif;
+}
+
+.order-secondary {
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 15px;
+    font-family: RobotoB, sans-serif;
+    background-color: whitesmoke;
+    width: 50px;
+    border-radius: 6px;
+}
+
+
+.order-food {
+    display: flex;
+    margin-top: 20px;
+}
+
+.order-img {
+    width: 84px;
+    border-radius: 10px;
+}
+
+.order-img img {
+    width: 200px;
+}
+
+
+.order-food:first-child {
+    margin: 0;
+}
+
+.name,
+.weight,
+.price {
+    margin: 0;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.name {
+    margin: 0;
+    margin-left: 5px;
+    color: black;
+    font-family: RobotoM, sans-serif;
+}
+
+.weight {
+    color: rgba(128, 128, 128, 0.596);
+    font-family: RobotoM, sans-serif;
+}
+
+.price {
+    color: black;
+    font-family: RobotoM, sans-serif;
+}
+
+.number {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: whitesmoke;
+    width: 90px;
+    border-radius: 12px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+    font-size: 16px;
+    font-family: RobotoB, sans-serif;
+}
+
+
+.minus:hover,
+.plus:hover {
+    cursor: pointer;
+    color: gray;
+}
+
+
+
+.between {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+
+
+hr {
+    height: 1px;
+    background-color: whitesmoke;
+    border: none;
+    margin: 0;
+    margin-top: 20px;
+}
+
+.order-price {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.price-primary,
+.price-secondary {
+    color: black;
+    font-size: 16px;
+    font-family: RobotoB, sans-serif;
+}
+
+
+.delivery {
+    display: flex;
+}
+
+.delivery-text {
+    margin-left: 10px;
+    color: black;
+    font-size: 16px;
+    font-family: RobotoM, sans-serif;
+}
+
+/*Burgers*/
+.combos {
+    display: flex;
+    margin-top: 22px;
+}
+
+.combos:first-child {
+    margin: 0;
+}
+
+.combos__primary {
+    color: black;
+    font-size: 40px;
+    font-family: RobotoM, sans-serif;
+    margin: 0;
+    margin-top: 50px;
+    margin-bottom: 27px;
+    margin-left: 22px;
+}
+
+.combos__info {
+    background-color: white;
+    border-radius: 18px;
+    padding: 12px;
+    margin-left: 15px;
+}
+
+
+.combos__info img {
+    width: 280px;
+    border-radius: 10px;
+}
+
+
+.combos__name,
+.combos__weight,
+.combos__price {
+    margin: 0;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.combos__name {
+    margin: 0;
+    margin-left: 5px;
+    color: black;
+    font-family: RobotoM, sans-serif;
+}
+
+.combos__weight {
+    color: rgba(128, 128, 128, 0.596);
+    font-family: RobotoM, sans-serif;
+}
+
+.combos__price {
+    color: black;
+    font-size: 25px;
+    font-family: RobotoM, sans-serif;
+}
