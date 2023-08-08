@@ -104,6 +104,12 @@ a {
         display: none;
     }
 
+    .burger .burger-img {
+        display: inline;
+        width: 200px;
+        margin-bottom: 20px;
+    }
+
     .header section img {
         margin-top: 20px;
     }
