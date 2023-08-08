@@ -58,6 +58,56 @@ a {
 }
 
 
+@media (max-width: 990px) {
+    .burger .burger-img {
+        width: 200px;
+    }
+
+    .primary, .secondary {
+        font-size: 25px;
+    }
+    
+    .third {
+        background: transparent;
+        font-size: 16px;
+    }
+}
+
+
+@media (max-width: 820px) {
+    .burger-img {
+        display: none;
+    }
+}
+
+
+@media (max-width: 630px) {
+    .primary {
+        margin: 0;
+    }
+}
+
+
+@media (max-width: 535px) {
+    .head {
+        margin-top: 20px;
+    }
+
+    .third {
+        margin-bottom: 10px;
+    }
+}
+
+
+@media (max-width: 465px) {
+    .primary, .secondary, .third {
+        display: none;
+    }
+
+    .header section img {
+        margin-top: 20px;
+    }
+}
 
 
 
