@@ -51,7 +51,19 @@
 }
 
 
+@media (max-width: 1015px) {
+    .burger-button {
+        padding: 12px 20px;
+        width: 200px;
+    }
+}
 
+
+@media (max-width: 845px) {
+    .burger-button {
+        width: 150px;
+    }
+}
 
 
 
