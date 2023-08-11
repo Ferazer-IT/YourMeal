@@ -296,6 +296,7 @@ hr {
 
     .main {
         display: flex;
+        margin-top: 20px;
     }
 
     .order-foods {
