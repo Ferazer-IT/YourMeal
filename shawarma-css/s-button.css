@@ -49,3 +49,18 @@
     cursor: default;
     background-color: whitesmoke;
 }
+
+
+@media (max-width: 1015px) {
+    .shawarmas__button {
+        padding: 12px 20px;
+        width: 200px;
+    }
+}
+
+
+@media (max-width: 845px) {
+    .shawarmas__button {
+        width: 150px;
+    }
+}
