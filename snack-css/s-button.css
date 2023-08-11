@@ -26,8 +26,8 @@
 }
 
 
-/*Burger*/
-.burger-button {
+/*menu button*/
+.snacks-button {
     background-color: whitesmoke;
     color: black;
     width: 276px;
@@ -40,12 +40,28 @@
     margin-top: 5px;
 }
 
-.burger-button:hover {
+.snacks-button:hover {
     cursor: pointer;
     background-color: gray;
 }
 
-.burger-button:active {
+.snacks-button:active {
     cursor: default;
     background-color: whitesmoke;
+}
+
+
+
+@media (max-width: 1015px) {
+    .snacks-button {
+        padding: 12px 20px;
+        width: 200px;
+    }
+}
+
+
+@media (max-width: 845px) {
+    .snacks-button {
+        width: 150px;
+    }
 }
