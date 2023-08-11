@@ -49,11 +49,77 @@ a {
     background-color: orange;
 }
 
-.snack {
+.snacks {
     display: flex;
 }
 
 .header-img {
     width: 350px;
     margin-right: 50px;
+}
+
+
+
+@media (max-width: 1060px) {
+    .logo {
+        width: 200px;
+    }
+    
+    .third {
+        background: transparent;
+    }
+}
+
+
+
+@media (max-width: 990px) {
+    .snacks .snacks-img {
+        width: 200px;
+    }
+
+    .primary, .secondary, .third {
+        display: none;
+    }
+}
+
+
+@media (max-width: 820px) {
+    .snacks-img {
+        display: none;
+    }
+}
+
+
+@media (max-width: 630px) {
+    .primary {
+        margin: 0;
+    }
+}
+
+
+@media (max-width: 535px) {
+    .head {
+        margin-top: 20px;
+    }
+
+    .third {
+        margin-bottom: 10px;
+    }
+}
+
+
+@media (max-width: 465px) {
+    .primary, .secondary, .third {
+        display: none;
+    }
+
+    .snacks .snacks-img {
+        display: inline;
+        width: 200px;
+        margin-bottom: 20px;
+    }
+
+    .header section img {
+        margin-top: 20px;
+    }
 }
