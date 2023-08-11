@@ -253,3 +253,87 @@ hr {
     font-size: 25px;
     font-family: RobotoM, sans-serif;
 }
+
+
+
+@media (max-width: 1200px) {
+    .food p, .food-primary p {
+        display: none;
+    }
+
+    .food, .food-primary {
+        padding: 5px 20px;
+    }
+
+    .order {
+        display: none;
+    }
+}
+
+
+@media (max-width: 1015px) {
+    .combos-info img {
+        width: 200px;
+    }
+}
+
+
+@media (max-width: 845px) {
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .foods {
+        display: flex;
+        flex-direction: column;
+        width: 95px;
+        margin-left: -10px;
+        margin-top: 125px;
+    }
+
+    .food-primary {
+        margin-left: 30px;
+    }
+
+    .main {
+        display: flex;
+    }
+
+    .order-foods {
+        margin-left: 0px;
+    }
+
+    .food {
+        margin-top: 10px;
+    }
+
+
+
+    .combos-price {
+        font-size: 20px;
+    }
+
+    .combos-name {
+        font-size: 15px;
+    }
+
+    .combos-weight {
+        font-size: 15px;
+    }
+
+    .combos-info img {
+        width: 160px;
+    }
+
+    .combos-info {
+        margin-left: 10px;
+    }
+}
+
+
+@media (max-width: 695px) {
+    .combos {
+        display: grid;
+    }
+}
