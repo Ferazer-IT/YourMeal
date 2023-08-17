@@ -1,0 +1,117 @@
+body {
+    background-color: rgb(245, 245, 245);
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: orange;
+    border-bottom-left-radius: 280px;
+    border-bottom-right-radius: 280px;
+    padding-bottom: 11.5px;
+}
+
+
+.head {
+    display: flex;
+    margin-top: 40px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.primary {
+    color: white;
+    font-size: 45px;
+    font-family: RobotoB, sans-serif;
+}
+
+.secondary {
+    color: orangered;
+    margin: 0;
+}
+
+.third {
+    color: white;
+    font-family: RobotoT, sans-serif;
+    font-size: 25px;
+    margin: 0;
+    background-color: orange;
+}
+
+.snack {
+    display: flex;
+}
+
+.pizzas-img {
+    margin-top: -60px;
+    width: 400px;
+}
+
+
+@media (max-width: 1060px) {
+    .logo {
+        width: 200px;
+    }
+    
+    .third {
+        background: transparent;
+    }
+}
+
+
+
+@media (max-width: 990px) {
+    .pizzas .pizzas-img {
+        width: 300px;
+    }
+
+    .primary, .secondary, .third {
+        display: none;
+    }
+}
+
+
+@media (max-width: 630px) {
+    .primary {
+        margin: 0;
+    }
+}
+
+
+@media (max-width: 535px) {
+    .head {
+        margin-top: 20px;
+    }
+
+    .third {
+        margin-bottom: 10px;
+    }
+}
+
+
+@media (max-width: 465px) {
+    .primary, .secondary, .third {
+        display: none;
+    }
+
+    .pizzas .pizzas-img {
+        display: inline;
+        width: 300px;
+        margin-bottom: 20px;
+    }
+
+    .header section img {
+        margin-top: 20px;
+    }
+}
