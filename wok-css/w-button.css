@@ -1,0 +1,66 @@
+.order-button {
+    display: flex;
+    justify-content: center;
+    background-color: orangered;
+    width: 300px;
+    border: none;
+    border-radius: 10px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 32px;
+    padding-right: 32px;
+
+    color: white;
+    font-size: 16px;
+    font-family: RobotoM, sans-serif;
+}
+
+.order-button:hover {
+    background-color: rgb(173, 46, 0);
+    cursor: pointer;
+}
+
+.order-button:active {
+    background-color: orangered;
+    cursor: default;
+}
+
+
+/*menu buttons*/
+.woks-button {
+    background-color: whitesmoke;
+    color: black;
+    width: 276px;
+    border: none;
+    border-radius: 12px;
+    padding-left: 92px;
+    padding-right: 92px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-top: 5px;
+}
+
+.woks-button:hover {
+    cursor: pointer;
+    background-color: gray;
+}
+
+.woks-button:active {
+    cursor: default;
+    background-color: whitesmoke;
+}
+
+
+@media (max-width: 1015px) {
+    .woks-button {
+        padding: 12px 20px;
+        width: 200px;
+    }
+}
+
+
+@media (max-width: 845px) {
+    .woks-button {
+        width: 150px;
+    }
+}
