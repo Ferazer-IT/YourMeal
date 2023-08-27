@@ -50,18 +50,33 @@
     background-color: whitesmoke;
 }
 
+@media (max-width: 1300px) {
+    .burger-button {
+        width: 250px;
+    }
+}
+
 
 @media (max-width: 1015px) {
     .burger-button {
         padding: 12px 20px;
-        width: 200px;
+        width: 180px;
     }
 }
 
 
 @media (max-width: 845px) {
     .burger-button {
-        width: 150px;
+        width: 130px;
+    }
+}
+
+
+@media (max-width: 450px) {
+    .burger-button {
+        width: 120px;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 }
 

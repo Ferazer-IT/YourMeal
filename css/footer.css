@@ -219,3 +219,11 @@
         margin-right: 50px;
     }
 }
+
+
+@media (max-width: 450px) {
+    .logo {
+        margin-right: 30px;
+        padding-left: 20px;
+    }
+}
