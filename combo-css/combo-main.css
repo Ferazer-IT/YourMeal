@@ -9,6 +9,11 @@
 }
 
 
+.foods:first-child {
+    margin-left: 0;
+}
+
+
 .food:hover {
     background-color: rgb(255, 195, 84);
     cursor: pointer;
@@ -272,7 +277,7 @@ hr {
 
 
 @media (max-width: 1015px) {
-    .combos-info img {
+    .combos__info img {
         width: 200px;
     }
 }
@@ -311,23 +316,23 @@ hr {
 
 
 
-    .combos-price {
+    .combos__price {
         font-size: 20px;
     }
 
-    .combos-name {
+    .combos__name {
         font-size: 15px;
     }
 
-    .combos-weight {
+    .combos__weight {
         font-size: 15px;
     }
 
-    .combos-info img {
+    .combos__info img {
         width: 160px;
     }
 
-    .combos-info {
+    .combos__info {
         margin-left: 10px;
     }
 }
@@ -335,6 +340,64 @@ hr {
 
 @media (max-width: 695px) {
     .combos {
-        display: grid;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .combos__wrapper {
+        display: flex;
+    }
+
+    .combos__wrapper .col2 {
+        margin-top: 125px;
+    }
+}
+
+@media (max-width: 450px) {
+    .combos__info img {
+        width: 120px;
+    }
+    .combos__info {
+        width: 120px;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+
+    .col2 {
+        width: 0;
+    }
+
+    .combos__wrapper div {
+        width: 120px;
+    }
+
+    .col2 .combos__info {
+        margin-left: 35px;
+    }
+
+    .food, .food-primary {
+        margin-left: 20px;
+        width: 25px;
+    }
+
+    .combos__primary {
+        margin-left: 0px;
+    }
+}
+
+
+@media (max-width: 300px) {
+    .combos__wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .col2 .combos__info {
+        margin-top: 5px;
+        margin-left: 0;
+    }
+    
+    .combos__wrapper .col2 {
+        margin-top: 0px;
     }
 }
